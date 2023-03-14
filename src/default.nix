@@ -31,11 +31,9 @@ buildDotnetModule rec {
     zlib
     curl
   ];
-  dotnetFlags = [
-  ];
+  
   dotnetPackFlags = [
-    "-p:PublishNativeAot=True"
-    #"-p:TargetsForTfmSpecificContentInPackage="
+    "-p:TargetsForTfmSpecificContentInPackage=" # workaround for NETSDK1085 when packing with --no-build https://github.com/dotnet/fsharp/issues/12320
   ];
   executables = [];
   packNupkg = true;

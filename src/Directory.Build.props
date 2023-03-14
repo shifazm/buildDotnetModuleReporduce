@@ -16,5 +16,6 @@
         <GenerateAssemblyCopyrightAttribute>true</GenerateAssemblyCopyrightAttribute>
         <GenerateAssemblyVersionAttribute>true</GenerateAssemblyVersionAttribute>
         <GenerateAssemblyInformationalVersionAttribute>true</GenerateAssemblyInformationalVersionAttribute>
+        <IsPackable>true</IsPackable>
     </PropertyGroup>
 </Project>

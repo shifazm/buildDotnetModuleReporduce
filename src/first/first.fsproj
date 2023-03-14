@@ -1,10 +1,4 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <IsPackable>true</IsPackable>
-  </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="FSharpPlus" />
-  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\shared\shared.fsproj" />
   </ItemGroup>
